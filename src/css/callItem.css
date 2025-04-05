@@ -1,0 +1,11 @@
+.call-item {
+    font-size: 14px;
+    border: 1px solid #eee;
+  }
+  
+  .call-item .badge {
+    font-size: 10px;
+    padding: 3px 6px;
+    border-radius: 10px;
+  }
+  

@@ -1,0 +1,61 @@
+/* @import "tailwindcss"; */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  background-color: white;
+  border-bottom: 1px solid #eee;
+  font-family: 'Arial', sans-serif;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tab {
+  font-size: 14px;
+  color: gray;
+  cursor: pointer;
+  padding-bottom: 6px;
+  position: relative;
+}
+
+.tab.active {
+  color: #333;
+  font-weight: 600;
+}
+
+.tab.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #fa5e3b;
+  border-radius: 2px;
+}
+
+.settings-icon i {
+  font-size: 16px;
+  color: #333;
+}
+
+.ti {
+  margin-right: 5px !important;
+}

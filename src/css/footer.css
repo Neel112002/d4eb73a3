@@ -1,0 +1,46 @@
+.footer {
+    height: 65px;
+    background-color: white;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative; /* for center-button positioning */
+  }
+  
+  
+  
+  .nav-icon {
+    position: relative;
+    font-size: 20px;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .badge {
+    position: absolute;
+    top: -6px;
+    right: -10px;
+    background-color: #fa5e3b;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 2px 6px;
+  }
+  
+  .center-button {
+    position: absolute; 
+    background-color: #4cd964;  
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    z-index: 1100;
+  }
+  
